@@ -23,7 +23,7 @@ export default function CardInput({kelimeler, setKelimeler}) {
         e.preventDefault()
     }
     return (
-        <div style={{display:"flex", flexDirection:"column"}}>
+        <div className="textfieldGrup">
             <h1>Kelime Ekle</h1>
             <TextField value={input.eng} onChange={changeEnglishWord} style={{width:500, marginTop:15}} id="outlined-basic" label="English" variant="outlined" />
             <TextField value={input.tr} onChange={changeTurkishWord} style={{width:500, marginTop:15}} id="outlined-basic" label="Turkish" variant="outlined" />

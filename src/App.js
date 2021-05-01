@@ -1,5 +1,5 @@
 import React from 'react'
-import CardList from './CardList'
+import CardList from './engCardComponents/CardList'
 import './App.css'
 
 
